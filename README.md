@@ -113,5 +113,7 @@ python manage.py runserver
 ⸻
 
 __Credits__
+<pre lang="markdown">
 Developed as part of Bluestock Fintech internship.
 Maintained by Konark.
+</pre>
