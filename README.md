@@ -1,4 +1,4 @@
-**IPO WEB APP**
+**IPO WEB APP: **
 A production-ready Django + PostgreSQL application for displaying, filtering, and managing IPO listings with a REST API and Bootstrap UI.
 
 ---
