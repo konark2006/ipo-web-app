@@ -75,14 +75,19 @@ DATABASES = {
 
 ## 6. Run Migrations
 
+<pre lang="markdown">
+```
 python manage.py makemigrations
 python manage.py migrate
+```
+</pre>
+
 
 ## 7. Create Admin User
 python manage.py createsuperuser
 
 ## 8. Run the Server
-''' python manage.py runserver '''
+python manage.py runserver
 
 
 ## **Access the App**
