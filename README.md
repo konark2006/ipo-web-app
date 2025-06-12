@@ -81,7 +81,7 @@ python manage.py migrate
 7. Create Admin User:
 python manage.py createsuperuser
 
-8. Run the Server:
+## 8. Run the Server:
 python manage.py runserver
 
 
