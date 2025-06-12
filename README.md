@@ -82,7 +82,7 @@ python manage.py migrate
 python manage.py createsuperuser
 
 ## 8. Run the Server
-python manage.py runserver
+''' python manage.py runserver '''
 
 
 ## **Access the App**
