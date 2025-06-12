@@ -78,7 +78,6 @@ DATABASES = {
 }
 </pre>
 
-
 ## 6. Run Migrations
 
 <pre lang="markdown">
