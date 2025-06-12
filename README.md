@@ -39,28 +39,28 @@ ipo_project2/
 
 ## Setup Instructions ##
 
-1. Clone the Repository:
+## 1. Clone the Repository: ##
 
 • git clone https://github.com/YOUR_USERNAME/ipo-web-app.git
 • cd ipo-web-app
 
 
-2. Create Virtual Environment:
+## 2. Create Virtual Environment: ##
 
 python3 -m venv venv
 source venv/bin/activate
 
-3. Install Requirements:
+## 3. Install Requirements: ##
 
 pip install -r requirements.txt
 
-4. Set Up PostgreSQL Database:
+## 4. Set Up PostgreSQL Database: ##
 
 CREATE DATABASE ipo_db;
 CREATE USER ipo_user WITH PASSWORD 'password123';
 GRANT ALL PRIVILEGES ON DATABASE ipo_db TO ipo_user;
 
-5. Update settings.py with:
+## 5. Update settings.py with: ##
 
 DATABASES = {
     'default': {
@@ -73,12 +73,12 @@ DATABASES = {
     }
 }
 
-6. Run Migrations:
+## 6. Run Migrations: ##
 
 python manage.py makemigrations
 python manage.py migrate
 
-7. Create Admin User:
+## 7. Create Admin User: ##
 python manage.py createsuperuser
 
 ## 8. Run the Server: ##
