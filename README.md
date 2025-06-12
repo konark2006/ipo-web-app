@@ -41,8 +41,8 @@ ipo_project2/
 
 1. Clone the Repository:
 
-git clone https://github.com/YOUR_USERNAME/ipo-web-app.git
-cd ipo-web-app
+• git clone https://github.com/YOUR_USERNAME/ipo-web-app.git
+• cd ipo-web-app
 
 
 2. Create Virtual Environment:
