@@ -24,6 +24,7 @@ A production-ready Django + PostgreSQL application for displaying, filtering, an
 ---
 
 ## Folder Structure
+<pre lang="markdown">
 ipo_project2/
 ├── manage.py
 ├── ipo_project/
@@ -34,34 +35,37 @@ ipo_project2/
 ├── venv/
 ├── README.md
 └── requirements.txt
-
+</pre>
 ---
 
 ## Setup Instructions ##
 
 ## 1. Clone the Repository: ##
-
+<pre lang="markdown">
 • git clone https://github.com/YOUR_USERNAME/ipo-web-app.git
 • cd ipo-web-app
-
+</pre>
 
 ## 2. Create Virtual Environment: ##
-
+<pre lang="markdown">
 python3 -m venv venv
 source venv/bin/activate
+</pre>
 
 ## 3. Install Requirements: ##
-
+<pre lang="markdown">
 pip install -r requirements.txt
+</pre>
 
 ## 4. Set Up PostgreSQL Database: ##
-
+<pre lang="markdown">
 CREATE DATABASE ipo_db;
 CREATE USER ipo_user WITH PASSWORD 'password123';
 GRANT ALL PRIVILEGES ON DATABASE ipo_db TO ipo_user;
+</pre>
 
 ## 5. Update settings.py with: ##
-
+<pre lang="markdown">
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -72,6 +76,8 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+</pre>
+
 
 ## 6. Run Migrations
 
@@ -82,11 +88,14 @@ python manage.py migrate
 
 
 ## 7. Create Admin User
+<pre lang="markdown">
 python manage.py createsuperuser
+</pre>
 
 ## 8. Run the Server
+<pre lang="markdown">
 python manage.py runserver
-
+</pre>
 
 ## **Access the App**
 	•	Public IPO Listings: http://127.0.0.1:8000/
