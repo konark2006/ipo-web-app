@@ -76,10 +76,8 @@ DATABASES = {
 ## 6. Run Migrations
 
 <pre lang="markdown">
-```
 python manage.py makemigrations
 python manage.py migrate
-```
 </pre>
 
 
